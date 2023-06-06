@@ -1,0 +1,45 @@
+
+body {
+    font-family: "halyard-display", sans-serif;
+    line-height: 1.7;
+    color: black;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700 !important;
+    color: rgb(255, 115, 0);
+}
+
+a {
+    color: black
+}
+
+img {
+    width: 100%;
+}
+
+/* Nav Bar */
+.top-nav {
+ background-color: antiquewhite;
+ padding-top: 5px;
+ padding-bottom: 5px;
+
+}
+
+.top-nav p {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: rgb(255, 115, 0);
+}
+
+.top-nav i
+.top-nav span {
+    vertical-align: middle;
+}
+
+.social-links a {
+    width: 34px;
+    height: 34px;
+    background-color: #ffffff2e;
+}
