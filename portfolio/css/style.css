@@ -5,9 +5,11 @@ body {
     color: black;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1 {
     font-weight: 700 !important;
     color: rgb(255, 115, 0);
+    margin: auto !important;
+    padding-left: 30px ;
 }
 
 a {
@@ -15,12 +17,13 @@ a {
 }
 
 img {
+    padding: 10px;
     width: 100%;
 }
 
 /* Nav Bar */
 .top-nav {
- background-color: antiquewhite;
+ background-color: rgb(251, 251, 131);
  padding-top: 5px;
  padding-bottom: 5px;
 
@@ -39,7 +42,50 @@ img {
 }
 
 .social-links a {
-    width: 34px;
-    height: 34px;
-    background-color: #ffffff2e;
+    width: 100px;
+    height: 100px;
 }
+
+.navbar {
+    align-items: end;
+    padding-left: 30px;
+}
+
+.moving-element {
+    width: 500px;
+    height: 200px;
+    background-color:  white;
+    animation: move 30s infinite;
+    font-size: 100px;
+    color: black;
+    font-family: 'League Gothic', sans-serif;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    margin: 0;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(1280px); 
+    }
+    100% {
+      transform: translateX(1280px); 
+    }
+  }
+
+  .col-sm {
+    margin: auto;
+  }
+
+  h2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  h3 {
+    color:rgb(255, 115, 0)
+  }
